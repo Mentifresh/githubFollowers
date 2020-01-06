@@ -17,6 +17,7 @@
 		33CAA40A23C0BB1200577019 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA40923C0BB1200577019 /* FavoritesListVC.swift */; };
 		33CAA40C23C0C97200577019 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA40B23C0C97200577019 /* GFButton.swift */; };
 		33CAA40E23C0F7F800577019 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA40D23C0F7F800577019 /* GFTextField.swift */; };
+		33CAA41023C39ECE00577019 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA40F23C39ECE00577019 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		33CAA40923C0BB1200577019 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		33CAA40B23C0C97200577019 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		33CAA40D23C0F7F800577019 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		33CAA40F23C39ECE00577019 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				33CAA40B23C0C97200577019 /* GFButton.swift */,
 				33CAA40D23C0F7F800577019 /* GFTextField.swift */,
 				33CAA40723C0BAEA00577019 /* SearchVC.swift */,
+				33CAA40F23C39ECE00577019 /* FollowerListVC.swift */,
 				33CAA40923C0BB1200577019 /* FavoritesListVC.swift */,
 				33CAA3E023BE72C200577019 /* Assets.xcassets */,
 				33CAA3E223BE72C200577019 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				33CAA40A23C0BB1200577019 /* FavoritesListVC.swift in Sources */,
 				33CAA40C23C0C97200577019 /* GFButton.swift in Sources */,
 				33CAA40823C0BAEA00577019 /* SearchVC.swift in Sources */,
+				33CAA41023C39ECE00577019 /* FollowerListVC.swift in Sources */,
 				33CAA3D823BE72BE00577019 /* AppDelegate.swift in Sources */,
 				33CAA3DA23BE72BE00577019 /* SceneDelegate.swift in Sources */,
 			);
