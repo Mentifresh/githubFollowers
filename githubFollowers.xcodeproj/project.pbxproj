@@ -22,6 +22,8 @@
 		33CAA41423C3D9FC00577019 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA41323C3D9FC00577019 /* GFBodyLabel.swift */; };
 		33CAA41623C3DAC500577019 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA41523C3DAC500577019 /* GFAlertVC.swift */; };
 		33CAA41823C4DB3A00577019 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA41723C4DB3A00577019 /* UIViewController+Ext.swift */; };
+		33CAA41F23C500F600577019 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA41E23C500F600577019 /* Follower.swift */; };
+		33CAA42123C501BD00577019 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA42023C501BD00577019 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		33CAA41323C3D9FC00577019 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		33CAA41523C3DAC500577019 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		33CAA41723C4DB3A00577019 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		33CAA41E23C500F600577019 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		33CAA42023C501BD00577019 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				33CAA41C23C4E39E00577019 /* Support */,
+				33CAA41D23C500E500577019 /* Models */,
 				33CAA41923C4E2D700577019 /* Screens */,
 				33CAA41A23C4E30700577019 /* Custom Views */,
 				33CAA41B23C4E33A00577019 /* Extensions */,
+				33CAA3E523BE72C200577019 /* Info.plist */,
 			);
 			path = githubFollowers;
 			sourceTree = "<group>";
@@ -176,9 +182,17 @@
 				33CAA3D923BE72BE00577019 /* SceneDelegate.swift */,
 				33CAA3E023BE72C200577019 /* Assets.xcassets */,
 				33CAA3E223BE72C200577019 /* LaunchScreen.storyboard */,
-				33CAA3E523BE72C200577019 /* Info.plist */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		33CAA41D23C500E500577019 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33CAA41E23C500F600577019 /* Follower.swift */,
+				33CAA42023C501BD00577019 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33CAA42123C501BD00577019 /* User.swift in Sources */,
 				33CAA40E23C0F7F800577019 /* GFTextField.swift in Sources */,
 				33CAA40A23C0BB1200577019 /* FavoritesListVC.swift in Sources */,
 				33CAA40C23C0C97200577019 /* GFButton.swift in Sources */,
@@ -318,6 +333,7 @@
 				33CAA40823C0BAEA00577019 /* SearchVC.swift in Sources */,
 				33CAA41623C3DAC500577019 /* GFAlertVC.swift in Sources */,
 				33CAA41423C3D9FC00577019 /* GFBodyLabel.swift in Sources */,
+				33CAA41F23C500F600577019 /* Follower.swift in Sources */,
 				33CAA41223C3D88A00577019 /* GFTitleLabel.swift in Sources */,
 				33CAA41023C39ECE00577019 /* FollowerListVC.swift in Sources */,
 				33CAA3D823BE72BE00577019 /* AppDelegate.swift in Sources */,
