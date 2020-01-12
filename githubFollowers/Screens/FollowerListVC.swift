@@ -17,13 +17,14 @@ class FollowerListVC: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         view.backgroundColor = .systemBackground
         
-        NetworkManager.shared.getFollowers(for: username, page: 1) { (followers, errorMessage) in
-            guard let followers = followers else {
-                self.presentGFAlertOnMainThread(title: "Bad stuff happened", message: errorMessage!.rawValue, buttonTitle: "Ok")
-                return
-            }
+        NetworkManager.shared.getFollowers(for: username, page: 1) { result in
             
-            print("\(followers.count)")
+            switch result {
+            case .success(let followers):
+                print("\(followers.count)")
+            case .failure(let error):
+                self.presentGFAlertOnMainThread(title: "Bad stuff happened", message: error.rawValue, buttonTitle: "Ok")
+            }
         }
     }
     
