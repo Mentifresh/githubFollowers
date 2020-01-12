@@ -6,13 +6,15 @@
 //  Copyright © 2020 Dani. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class NetworkManager {
     static let shared = NetworkManager()
     
-    let baseURL = "https://api.github.com/users/"
-    let requestedFollowers = 100
+    let cache = NSCache<NSString, UIImage>()
+    
+    private let baseURL = "https://api.github.com/users/"
+    private let requestedFollowers = 100
     
     private init() {
         

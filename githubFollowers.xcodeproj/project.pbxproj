@@ -128,12 +128,12 @@
 			isa = PBXGroup;
 			children = (
 				9306FFF123CB658E00715027 /* Utilities */,
-				33CAA41C23C4E39E00577019 /* Support */,
 				33CAA42223C50E2900577019 /* Managers */,
 				33CAA41D23C500E500577019 /* Models */,
 				33CAA41923C4E2D700577019 /* Screens */,
 				33CAA41A23C4E30700577019 /* Custom Views */,
 				33CAA41B23C4E33A00577019 /* Extensions */,
+				33CAA41C23C4E39E00577019 /* Support */,
 				33CAA3E523BE72C200577019 /* Info.plist */,
 			);
 			path = githubFollowers;
