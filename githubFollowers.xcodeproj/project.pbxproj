@@ -35,6 +35,7 @@
 		9348A831245F56AF00B9E887 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348A830245F56AF00B9E887 /* GFSecondaryTitleLabel.swift */; };
 		9348A833245F5B2400B9E887 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348A832245F5B2400B9E887 /* Constants.swift */; };
 		9348A835245F658700B9E887 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348A834245F658700B9E887 /* GFItemInfoView.swift */; };
+		9348A8372460141E00B9E887 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348A8362460141E00B9E887 /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		9348A830245F56AF00B9E887 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		9348A832245F5B2400B9E887 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9348A834245F658700B9E887 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		9348A8362460141E00B9E887 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +279,7 @@
 			children = (
 				33CAA41523C3DAC500577019 /* GFAlertVC.swift */,
 				9348A82E245F564800B9E887 /* GFUserInfoHeaderVC.swift */,
+				9348A8362460141E00B9E887 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				33CAA40C23C0C97200577019 /* GFButton.swift in Sources */,
 				33CAA41823C4DB3A00577019 /* UIViewController+Ext.swift in Sources */,
 				9306FFFA23CBA15A00715027 /* UIHelper.swift in Sources */,
+				9348A8372460141E00B9E887 /* GFItemInfoVC.swift in Sources */,
 				9348A833245F5B2400B9E887 /* Constants.swift in Sources */,
 				9306FFF823CB6D0500715027 /* GFAvatarImageView.swift in Sources */,
 				33CAA40823C0BAEA00577019 /* SearchVC.swift in Sources */,
