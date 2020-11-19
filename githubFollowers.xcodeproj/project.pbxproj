@@ -12,6 +12,7 @@
 		3373EBDC2565B34B000B9C70 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373EBDB2565B34B000B9C70 /* PersistanceManager.swift */; };
 		3373EBE12566C5B6000B9C70 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373EBE02566C5B6000B9C70 /* FavoriteCell.swift */; };
 		3373EBE72566E203000B9C70 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373EBE62566E203000B9C70 /* GFTabBarController.swift */; };
+		3373EBEC25670E7A000B9C70 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373EBEB25670E7A000B9C70 /* GFAlertContainerView.swift */; };
 		33CAA3D823BE72BE00577019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA3D723BE72BE00577019 /* AppDelegate.swift */; };
 		33CAA3DA23BE72BE00577019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAA3D923BE72BE00577019 /* SceneDelegate.swift */; };
 		33CAA3E123BE72C200577019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CAA3E023BE72C200577019 /* Assets.xcassets */; };
@@ -68,6 +69,7 @@
 		3373EBDB2565B34B000B9C70 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
 		3373EBE02566C5B6000B9C70 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		3373EBE62566E203000B9C70 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		3373EBEB25670E7A000B9C70 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		33CAA3D423BE72BE00577019 /* githubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CAA3D723BE72BE00577019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33CAA3D923BE72BE00577019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 			children = (
 				9348A82A245F2F1600B9E887 /* GFEmptyStateView.swift */,
 				9348A834245F658700B9E887 /* GFItemInfoView.swift */,
+				3373EBEB25670E7A000B9C70 /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				9306FFF323CB659B00715027 /* GFError.swift in Sources */,
 				9348A82F245F564800B9E887 /* GFUserInfoHeaderVC.swift in Sources */,
 				33CAA41423C3D9FC00577019 /* GFBodyLabel.swift in Sources */,
+				3373EBEC25670E7A000B9C70 /* GFAlertContainerView.swift in Sources */,
 				33CAA41F23C500F600577019 /* Follower.swift in Sources */,
 				33CAA41223C3D88A00577019 /* GFTitleLabel.swift in Sources */,
 				3373EBD22563D8AA000B9C70 /* Date+Ext.swift in Sources */,
