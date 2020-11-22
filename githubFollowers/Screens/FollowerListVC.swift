@@ -226,7 +226,7 @@ extension FollowerListVC: FollowerListVCDelegate {
         self.page = 1
         self.followers.removeAll()
         self.filteredFollowers.removeAll()
-        self.collectionView.setContentOffset(.zero, animated: true)
+        self.collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .top, animated: true)
         
         self.getFollowers(username: username, page: page)
     }
