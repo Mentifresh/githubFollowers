@@ -1,11 +1,3 @@
-//
-//  PersistanceManager.swift
-//  githubFollowers
-//
-//  Created by Dani Kilders on 18.11.20.
-//  Copyright © 2020 Dani. All rights reserved.
-//
-
 import Foundation
 
 enum PersistanceActionType {
