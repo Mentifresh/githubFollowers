@@ -146,7 +146,7 @@ class FollowerListVC: UIViewController {
                     avatarUrl: user.avatarUrl
                 )
                 
-                PersistanceManager.updateWith(
+                PersistenceManager.updateWith(
                     favorite: favorite,
                     actionType: .add) { [weak self] (error) in
                     guard let self = self else { return }
